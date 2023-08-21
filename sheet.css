@@ -1,0 +1,64 @@
+.body {
+/*	align-content: center;*/
+	background: red;
+}
+#heading {
+	color: white;
+	border-radius: 13px;
+	padding: 15px;
+	background-image: linear-gradient(green, rgba(10, 0, 0, 0.8));
+	/*#b85eb2*/
+	/*align-content: center;*/
+}
+#cp_sites {
+	display: flex;
+	list-style: none;
+	color: black;
+}
+#cp_sites li {
+	margin-right: 20px;
+	cursor: pointer;
+}
+#cp_sites img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+#cp_sites img:hover {
+	box-shadow: black 10px 10px 10px;
+}
+#calendar {
+	border: 1px solid black;
+	display: flex;
+	width: 360px;
+
+}
+#days {
+	display: flex;
+}
+.day {
+	font-size: 21px;
+	padding: 20px;
+	margin: 1px;
+	width: 36px;
+	background-color: lightgreen;
+}
+
+#dates {
+	display: flex;
+	flex-wrap: wrap;
+	width: 550px;
+}
+.date {
+	border: 3px solid lightgrey;
+	font-size: 20px;
+	padding: 25px;
+	margin: 2px;
+	cursor: pointer;
+	/*width: 15px;*/
+}
+.date:hover {
+	background-color: paleturquoise;
+	background-image: linear-gradient(paleturquoise, rgba(0, 0, 0, 0));
+}
